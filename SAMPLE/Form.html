@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+   <div
+    style="background-color:gray;">
+   <form>
+    <h2>REGISTRATION FORM</h2>
+    <label for="fname">FIRST NAME:</label>
+    <input type="text" name="fname" id="fname">
+    <label for="sname">SECOND NAME:</label>
+    <input type="text" name="sname" id="sname">
+    <br>
+    <label for="email">EMAIL ID</label>
+    <input type="email" name="email" id="email">
+    <label for="password">PASSWORD</label>
+    <input type="password" name="pass" id="pass">
+    <div style="background-color:blue;">
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="Other">
+        <label for="other">other</label>
+    </div>
+    <div>
+        <h3>HOBBIES</h3>
+        <input type="checkbox" name="game" id="football">
+        <label for="football">Football</label>
+        <br>
+        <input type="checkbox" name="game" id="cricket">
+        <label for="cricket">cricket</label>
+    </div>
+
+    <div style="background-color: royalblue;">
+        <h3>State</h3>
+        <label for="State">STATE</label>
+        <select name="State" id="State">
+            <option>Kerala</option>
+            <option>TamilNadu</option>
+            <option>Karnataka</option>
+        </select>
+    </div>
+
+    <div>
+        <h3>ADDRESS</h3> 
+        <label for="ADDRESS">ADDRESS</label><br>
+        <textarea name="ADDRESS" id="ADDRESS" cols="30" rows="5"></textarea>
+    </div>
+    
+    
+        <h3>UPLOAD PHOTO</h3>
+        <label for="Photo">UPLOAD</label>
+        <input type="file" name="photo" id="photo">
+        <br>
+        <input type="button" value="Register">
+   </form>   
+</body>
+</html>
